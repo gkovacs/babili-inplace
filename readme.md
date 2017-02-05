@@ -1,6 +1,6 @@
 # babili-inplace
 
-Supply a list of files and they will be minified via [babili](https://github.com/babel/babili#readme) in-place
+Supply a list of files and they will be minified via [babili](https://github.com/babel/babili#readme) in-place. If your code does not use ES6 features, also consider [uglify-inplace](https://github.com/gkovacs/uglify-inplace)
 
 ## Install
 
