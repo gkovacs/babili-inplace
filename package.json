@@ -1,5 +1,5 @@
 {
-  "name": "uglify-inplace",
+  "name": "babili-inplace",
   "version": "1.0.2",
   "description": "runs uglify on the input file and replaces it with the compressed version",
   "main": "bin/uglify-inplace",
