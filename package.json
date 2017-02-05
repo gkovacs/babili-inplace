@@ -1,21 +1,22 @@
 {
   "name": "babili-inplace",
   "version": "1.0.2",
-  "description": "runs uglify on the input file and replaces it with the compressed version",
-  "main": "bin/uglify-inplace",
+  "description": "runs babili on the input file and replaces it with the compressed version",
+  "main": "bin/babili-inplace",
   "dependencies": {
-    "uglify-js": "^2.7.5"
+    "babel-cli": "^6.22.2",
+    "babel-preset-babili": "^0.0.10"
   },
   "devDependencies": {},
   "bin": {
-    "uglify-inplace": "./bin/uglify-inplace"
+    "babili-inplace": "./bin/babili-inplace"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gkovacs/uglify-inplace.git"
+    "url": "https://github.com/gkovacs/babili-inplace.git"
   },
   "keywords": [
     "lsc",
@@ -25,7 +26,7 @@
   "author": "Geza Kovacs (http://github.com/gkovacs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gkovacs/uglify-inplace/issues"
+    "url": "https://github.com/gkovacs/babili-inplace/issues"
   },
-  "homepage": "https://github.com/gkovacs/uglify-inplace"
+  "homepage": "https://github.com/gkovacs/babili-inplace"
 }
